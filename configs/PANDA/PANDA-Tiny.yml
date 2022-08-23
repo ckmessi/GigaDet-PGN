@@ -1,0 +1,10 @@
+_BASE_: "./PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA_Tiny'
+
+DATASETS:
+  DATASET_ROOT: '/data/chenkai/dataset/PANDA/PANDA_IMAGE_TINY'
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA_Tiny'

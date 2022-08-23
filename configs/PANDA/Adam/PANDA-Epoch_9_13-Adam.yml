@@ -1,0 +1,16 @@
+_BASE_: "../PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA-Epoch_9_13-Adam'
+
+MODEL:
+  ANCHOR:
+    INCLUDE_STRATEGY: 'IncludeIgnoreSmall'
+
+SOLVER:
+  OPTIMIZER: 'Adam'
+  MAX_EPOCH: 13
+  STEPS: [9]
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA/Adam/Adam-9_13'

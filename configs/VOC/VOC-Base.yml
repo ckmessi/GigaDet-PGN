@@ -1,0 +1,8 @@
+_BASE_: "../Base.yml"
+
+INFO:
+  UID: 'VOC_uid'
+
+DATASETS:
+  DATASET_TYPE: 'PANDA'
+  DATASET_ROOT: '/dataset/PASCAL2007/VOC2007/'

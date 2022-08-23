@@ -1,0 +1,16 @@
+_BASE_: "../PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA-Anchor-1_2_4'
+
+MODEL:
+  ANCHOR:
+    INCLUDE_STRATEGY: 'IncludeIgnoreSmall'
+  PGN_ANCHOR_SCALES: [1, 2, 4]
+
+SOLVER:
+  MAX_EPOCH: 9
+  STEPS: [5]
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA/Anchor/1_2_4'

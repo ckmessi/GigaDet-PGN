@@ -1,0 +1,11 @@
+_BASE_: "./PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA_Sample'
+
+DATASETS:
+  DATASET_TYPE: 'PANDA'
+  DATASET_ROOT: '/data/chenkai/dataset/PANDA/PANDA_IMAGE_SAMPLE'
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA_Sample'

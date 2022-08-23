@@ -1,0 +1,15 @@
+_BASE_: "../PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA-Epoch_9_14'
+
+MODEL:
+  ANCHOR:
+    INCLUDE_STRATEGY: 'IncludeIgnoreSmall'
+
+SOLVER:
+  MAX_EPOCH: 14
+  STEPS: [9]
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA-Epoch_9_14'

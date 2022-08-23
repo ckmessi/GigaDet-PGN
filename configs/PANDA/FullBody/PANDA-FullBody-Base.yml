@@ -1,0 +1,11 @@
+_BASE_: '../Epoch/PANDA-Epoch_5_9.yml'
+
+INFO:
+  UID: 'PANDA_FullBody_Base'
+
+DATASETS:
+  PANDA:
+    PERSON_KEY: 'full body'
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA_FullBody_Base'

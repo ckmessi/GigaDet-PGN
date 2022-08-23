@@ -1,0 +1,11 @@
+_BASE_: "../PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA-IncludeStrategy-Include'
+
+MODEL:
+  ANCHOR:
+    INCLUDE_STRATEGY: 'Include'
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA-IncludeStrategy-Include'

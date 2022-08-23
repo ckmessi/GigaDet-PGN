@@ -1,0 +1,11 @@
+_BASE_: "../PANDA-Base.yml"
+
+INFO:
+  UID: 'PANDA-IncludeStrategy-IncludeIgnoreSmall'
+
+MODEL:
+  ANCHOR:
+    INCLUDE_STRATEGY: 'IncludeIgnoreSmall'
+
+OUTPUT:
+  ROOT_DIR: 'outputs/PANDA-IncludeStrategy-IncludeIgnoreSmall'
